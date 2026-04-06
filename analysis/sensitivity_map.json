@@ -1,0 +1,5096 @@
+[
+  {
+    "layer_name": "model.language_model.layers.0.self_attn.k_proj",
+    "cosine_similarity": 0.8734655976295471,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.0.self_attn.q_proj",
+    "cosine_similarity": 0.8598877787590027,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.0.self_attn.v_proj",
+    "cosine_similarity": 0.8747170567512512,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.0.self_attn.o_proj",
+    "cosine_similarity": 0.8654359579086304,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.0.mlp.gate_proj",
+    "cosine_similarity": 0.8681985139846802,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.0.mlp.up_proj",
+    "cosine_similarity": 0.8720060586929321,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.0.mlp.down_proj",
+    "cosine_similarity": 0.8659297823905945,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.0.per_layer_input_gate",
+    "cosine_similarity": 0.8598548173904419,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.0.per_layer_projection",
+    "cosine_similarity": 0.8333829641342163,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.1.self_attn.k_proj",
+    "cosine_similarity": 0.8589626550674438,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.1.self_attn.q_proj",
+    "cosine_similarity": 0.8558567762374878,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.1.self_attn.v_proj",
+    "cosine_similarity": 0.8703213334083557,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.1.self_attn.o_proj",
+    "cosine_similarity": 0.8699935674667358,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.1.mlp.gate_proj",
+    "cosine_similarity": 0.8701381683349609,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.1.mlp.up_proj",
+    "cosine_similarity": 0.8713905215263367,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.1.mlp.down_proj",
+    "cosine_similarity": 0.8683556318283081,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.1.per_layer_input_gate",
+    "cosine_similarity": 0.8503060340881348,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.1.per_layer_projection",
+    "cosine_similarity": 0.857254147529602,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.2.self_attn.k_proj",
+    "cosine_similarity": 0.8737936019897461,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.2.self_attn.q_proj",
+    "cosine_similarity": 0.8683059215545654,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.2.self_attn.v_proj",
+    "cosine_similarity": 0.8632996082305908,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.2.self_attn.o_proj",
+    "cosine_similarity": 0.8685122728347778,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.2.mlp.gate_proj",
+    "cosine_similarity": 0.8736876249313354,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.2.mlp.up_proj",
+    "cosine_similarity": 0.8755077123641968,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.2.mlp.down_proj",
+    "cosine_similarity": 0.8616382479667664,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.2.per_layer_input_gate",
+    "cosine_similarity": 0.8245326280593872,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.2.per_layer_projection",
+    "cosine_similarity": 0.8784301280975342,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.3.self_attn.k_proj",
+    "cosine_similarity": 0.843476414680481,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.3.self_attn.q_proj",
+    "cosine_similarity": 0.8489591479301453,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.3.self_attn.v_proj",
+    "cosine_similarity": 0.8721809387207031,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.3.self_attn.o_proj",
+    "cosine_similarity": 0.857892632484436,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.3.mlp.gate_proj",
+    "cosine_similarity": 0.8674593567848206,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.3.mlp.up_proj",
+    "cosine_similarity": 0.8688191175460815,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.3.mlp.down_proj",
+    "cosine_similarity": 0.8585134744644165,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.3.per_layer_input_gate",
+    "cosine_similarity": 0.8438689112663269,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.3.per_layer_projection",
+    "cosine_similarity": 0.7996399402618408,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.4.self_attn.k_proj",
+    "cosine_similarity": 0.8380450010299683,
+    "sensitive": true,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.4.self_attn.q_proj",
+    "cosine_similarity": 0.8549708724021912,
+    "sensitive": true,
+    "weight_shape": [
+      4096,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.4.self_attn.v_proj",
+    "cosine_similarity": 0.8623155951499939,
+    "sensitive": true,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.4.self_attn.o_proj",
+    "cosine_similarity": 0.8582156300544739,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.4.mlp.gate_proj",
+    "cosine_similarity": 0.8619011640548706,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.4.mlp.up_proj",
+    "cosine_similarity": 0.8674522042274475,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.4.mlp.down_proj",
+    "cosine_similarity": 0.8615976572036743,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.4.per_layer_input_gate",
+    "cosine_similarity": 0.8209556341171265,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.4.per_layer_projection",
+    "cosine_similarity": 0.839290201663971,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.5.self_attn.k_proj",
+    "cosine_similarity": 0.8544973134994507,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.5.self_attn.q_proj",
+    "cosine_similarity": 0.8475692272186279,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.5.self_attn.v_proj",
+    "cosine_similarity": 0.849535346031189,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.5.self_attn.o_proj",
+    "cosine_similarity": 0.8564544320106506,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.5.mlp.gate_proj",
+    "cosine_similarity": 0.8652055859565735,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.5.mlp.up_proj",
+    "cosine_similarity": 0.868933916091919,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.5.mlp.down_proj",
+    "cosine_similarity": 0.8680657148361206,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.5.per_layer_input_gate",
+    "cosine_similarity": 0.7994006276130676,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.5.per_layer_projection",
+    "cosine_similarity": 0.8193527460098267,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.6.self_attn.k_proj",
+    "cosine_similarity": 0.8679297566413879,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.6.self_attn.q_proj",
+    "cosine_similarity": 0.8585385084152222,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.6.self_attn.v_proj",
+    "cosine_similarity": 0.8772363662719727,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.6.self_attn.o_proj",
+    "cosine_similarity": 0.8672166466712952,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.6.mlp.gate_proj",
+    "cosine_similarity": 0.8671088814735413,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.6.mlp.up_proj",
+    "cosine_similarity": 0.8733791708946228,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.6.mlp.down_proj",
+    "cosine_similarity": 0.8702109456062317,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.6.per_layer_input_gate",
+    "cosine_similarity": 0.775409460067749,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.6.per_layer_projection",
+    "cosine_similarity": 0.7872145175933838,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.7.self_attn.k_proj",
+    "cosine_similarity": 0.8440067172050476,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.7.self_attn.q_proj",
+    "cosine_similarity": 0.8493542671203613,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.7.self_attn.v_proj",
+    "cosine_similarity": 0.8677475452423096,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.7.self_attn.o_proj",
+    "cosine_similarity": 0.865479052066803,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.7.mlp.gate_proj",
+    "cosine_similarity": 0.8590904474258423,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.7.mlp.up_proj",
+    "cosine_similarity": 0.8741459846496582,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.7.mlp.down_proj",
+    "cosine_similarity": 0.8675674796104431,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.7.per_layer_input_gate",
+    "cosine_similarity": 0.7522655129432678,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.7.per_layer_projection",
+    "cosine_similarity": 0.8164010047912598,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.8.self_attn.k_proj",
+    "cosine_similarity": 0.8521150946617126,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.8.self_attn.q_proj",
+    "cosine_similarity": 0.849502444267273,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.8.self_attn.v_proj",
+    "cosine_similarity": 0.836509644985199,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.8.self_attn.o_proj",
+    "cosine_similarity": 0.856238842010498,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.8.mlp.gate_proj",
+    "cosine_similarity": 0.8483363389968872,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.8.mlp.up_proj",
+    "cosine_similarity": 0.8688298463821411,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.8.mlp.down_proj",
+    "cosine_similarity": 0.8639310002326965,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.8.per_layer_input_gate",
+    "cosine_similarity": 0.7810289263725281,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.8.per_layer_projection",
+    "cosine_similarity": 0.8147972226142883,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.9.self_attn.k_proj",
+    "cosine_similarity": 0.8484126329421997,
+    "sensitive": true,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.9.self_attn.q_proj",
+    "cosine_similarity": 0.8513953685760498,
+    "sensitive": true,
+    "weight_shape": [
+      4096,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.9.self_attn.v_proj",
+    "cosine_similarity": 0.8677549362182617,
+    "sensitive": true,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.9.self_attn.o_proj",
+    "cosine_similarity": 0.8536470532417297,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.9.mlp.gate_proj",
+    "cosine_similarity": 0.8436704277992249,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.9.mlp.up_proj",
+    "cosine_similarity": 0.8687748908996582,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.9.mlp.down_proj",
+    "cosine_similarity": 0.8666094541549683,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.9.per_layer_input_gate",
+    "cosine_similarity": 0.6779559850692749,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.9.per_layer_projection",
+    "cosine_similarity": 0.8106050491333008,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.10.self_attn.k_proj",
+    "cosine_similarity": 0.8301458358764648,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.10.self_attn.q_proj",
+    "cosine_similarity": 0.8394471406936646,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.10.self_attn.v_proj",
+    "cosine_similarity": 0.865397036075592,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.10.self_attn.o_proj",
+    "cosine_similarity": 0.8599395751953125,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.10.mlp.gate_proj",
+    "cosine_similarity": 0.840320885181427,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.10.mlp.up_proj",
+    "cosine_similarity": 0.8712520599365234,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.10.mlp.down_proj",
+    "cosine_similarity": 0.8615098595619202,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.10.per_layer_input_gate",
+    "cosine_similarity": 0.7064940929412842,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.10.per_layer_projection",
+    "cosine_similarity": 0.8236383199691772,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.11.self_attn.k_proj",
+    "cosine_similarity": 0.8081496953964233,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.11.self_attn.q_proj",
+    "cosine_similarity": 0.840353786945343,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.11.self_attn.v_proj",
+    "cosine_similarity": 0.861666738986969,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.11.self_attn.o_proj",
+    "cosine_similarity": 0.8366845846176147,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.11.mlp.gate_proj",
+    "cosine_similarity": 0.8349588513374329,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.11.mlp.up_proj",
+    "cosine_similarity": 0.8620400428771973,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.11.mlp.down_proj",
+    "cosine_similarity": 0.8592613339424133,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.11.per_layer_input_gate",
+    "cosine_similarity": 0.7541327476501465,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.11.per_layer_projection",
+    "cosine_similarity": 0.8044561147689819,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.12.self_attn.k_proj",
+    "cosine_similarity": 0.8214496970176697,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.12.self_attn.q_proj",
+    "cosine_similarity": 0.8313809633255005,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.12.self_attn.v_proj",
+    "cosine_similarity": 0.8542705178260803,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.12.self_attn.o_proj",
+    "cosine_similarity": 0.8559869527816772,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.12.mlp.gate_proj",
+    "cosine_similarity": 0.8238941431045532,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.12.mlp.up_proj",
+    "cosine_similarity": 0.861621618270874,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.12.mlp.down_proj",
+    "cosine_similarity": 0.8486487865447998,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.12.per_layer_input_gate",
+    "cosine_similarity": 0.7769054174423218,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.12.per_layer_projection",
+    "cosine_similarity": 0.7459169626235962,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.13.self_attn.k_proj",
+    "cosine_similarity": 0.8490586280822754,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.13.self_attn.q_proj",
+    "cosine_similarity": 0.8233065605163574,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.13.self_attn.v_proj",
+    "cosine_similarity": 0.780125617980957,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.13.self_attn.o_proj",
+    "cosine_similarity": 0.8212630152702332,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.13.mlp.gate_proj",
+    "cosine_similarity": 0.8208052515983582,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.13.mlp.up_proj",
+    "cosine_similarity": 0.8456027507781982,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.13.mlp.down_proj",
+    "cosine_similarity": 0.8380274772644043,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.13.per_layer_input_gate",
+    "cosine_similarity": 0.7804189324378967,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.13.per_layer_projection",
+    "cosine_similarity": 0.7381575107574463,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.14.self_attn.k_proj",
+    "cosine_similarity": 0.8424616456031799,
+    "sensitive": true,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.14.self_attn.q_proj",
+    "cosine_similarity": 0.8230257034301758,
+    "sensitive": true,
+    "weight_shape": [
+      4096,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.14.self_attn.v_proj",
+    "cosine_similarity": 0.7932697534561157,
+    "sensitive": true,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.14.self_attn.o_proj",
+    "cosine_similarity": 0.8578675985336304,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.14.mlp.gate_proj",
+    "cosine_similarity": 0.841671347618103,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.14.mlp.up_proj",
+    "cosine_similarity": 0.8692055344581604,
+    "sensitive": true,
+    "weight_shape": [
+      6144,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.14.mlp.down_proj",
+    "cosine_similarity": 0.8643430471420288,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      6144
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.14.per_layer_input_gate",
+    "cosine_similarity": 0.8041622638702393,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.14.per_layer_projection",
+    "cosine_similarity": 0.8497396111488342,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.15.self_attn.k_proj",
+    "cosine_similarity": 0.907664954662323,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.15.self_attn.q_proj",
+    "cosine_similarity": 0.8309329152107239,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.15.self_attn.v_proj",
+    "cosine_similarity": 0.9073753952980042,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.15.self_attn.o_proj",
+    "cosine_similarity": 0.8646858930587769,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.15.mlp.gate_proj",
+    "cosine_similarity": 0.8482154607772827,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.15.mlp.up_proj",
+    "cosine_similarity": 0.8708417415618896,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.15.mlp.down_proj",
+    "cosine_similarity": 0.8648625612258911,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.15.per_layer_input_gate",
+    "cosine_similarity": 0.8035379648208618,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.15.per_layer_projection",
+    "cosine_similarity": 0.6875631809234619,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.16.self_attn.k_proj",
+    "cosine_similarity": 0.9074089527130127,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.16.self_attn.q_proj",
+    "cosine_similarity": 0.836401104927063,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.16.self_attn.v_proj",
+    "cosine_similarity": 0.9075479507446289,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.16.self_attn.o_proj",
+    "cosine_similarity": 0.8687400817871094,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.16.mlp.gate_proj",
+    "cosine_similarity": 0.8586421608924866,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.16.mlp.up_proj",
+    "cosine_similarity": 0.8767191171646118,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.16.mlp.down_proj",
+    "cosine_similarity": 0.8721508979797363,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.16.per_layer_input_gate",
+    "cosine_similarity": 0.7441747188568115,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.16.per_layer_projection",
+    "cosine_similarity": 0.7559347748756409,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.17.self_attn.k_proj",
+    "cosine_similarity": 0.9073734879493713,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.17.self_attn.q_proj",
+    "cosine_similarity": 0.8284794092178345,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.17.self_attn.v_proj",
+    "cosine_similarity": 0.9074248671531677,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.17.self_attn.o_proj",
+    "cosine_similarity": 0.8722805380821228,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.17.mlp.gate_proj",
+    "cosine_similarity": 0.8655637502670288,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.17.mlp.up_proj",
+    "cosine_similarity": 0.879690945148468,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.17.mlp.down_proj",
+    "cosine_similarity": 0.873721718788147,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.17.per_layer_input_gate",
+    "cosine_similarity": 0.743030309677124,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.17.per_layer_projection",
+    "cosine_similarity": 0.8261609673500061,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.18.self_attn.k_proj",
+    "cosine_similarity": 0.9072858095169067,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.18.self_attn.q_proj",
+    "cosine_similarity": 0.821377158164978,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.18.self_attn.v_proj",
+    "cosine_similarity": 0.907314658164978,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.18.self_attn.o_proj",
+    "cosine_similarity": 0.8646843433380127,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.18.mlp.gate_proj",
+    "cosine_similarity": 0.8590748310089111,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.18.mlp.up_proj",
+    "cosine_similarity": 0.8765935301780701,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.18.mlp.down_proj",
+    "cosine_similarity": 0.8712286949157715,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.18.per_layer_input_gate",
+    "cosine_similarity": 0.7210934162139893,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.18.per_layer_projection",
+    "cosine_similarity": 0.8607579469680786,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.19.self_attn.k_proj",
+    "cosine_similarity": 0.9076560139656067,
+    "sensitive": false,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.19.self_attn.q_proj",
+    "cosine_similarity": 0.8423696756362915,
+    "sensitive": true,
+    "weight_shape": [
+      4096,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.19.self_attn.v_proj",
+    "cosine_similarity": 0.9074946641921997,
+    "sensitive": false,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.19.self_attn.o_proj",
+    "cosine_similarity": 0.8629932403564453,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.19.mlp.gate_proj",
+    "cosine_similarity": 0.8468984365463257,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.19.mlp.up_proj",
+    "cosine_similarity": 0.8723621368408203,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.19.mlp.down_proj",
+    "cosine_similarity": 0.8719362020492554,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.19.per_layer_input_gate",
+    "cosine_similarity": 0.6616240739822388,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.19.per_layer_projection",
+    "cosine_similarity": 0.8562411665916443,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.20.self_attn.k_proj",
+    "cosine_similarity": 0.9076199531555176,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.20.self_attn.q_proj",
+    "cosine_similarity": 0.8110223412513733,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.20.self_attn.v_proj",
+    "cosine_similarity": 0.907467782497406,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.20.self_attn.o_proj",
+    "cosine_similarity": 0.8682706356048584,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.20.mlp.gate_proj",
+    "cosine_similarity": 0.8473692536354065,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.20.mlp.up_proj",
+    "cosine_similarity": 0.8734036684036255,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.20.mlp.down_proj",
+    "cosine_similarity": 0.8706461787223816,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.20.per_layer_input_gate",
+    "cosine_similarity": 0.6711728572845459,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.20.per_layer_projection",
+    "cosine_similarity": 0.8473836183547974,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.21.self_attn.k_proj",
+    "cosine_similarity": 0.9075568914413452,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.21.self_attn.q_proj",
+    "cosine_similarity": 0.8038126230239868,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.21.self_attn.v_proj",
+    "cosine_similarity": 0.9074626564979553,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.21.self_attn.o_proj",
+    "cosine_similarity": 0.8606477975845337,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.21.mlp.gate_proj",
+    "cosine_similarity": 0.8508107662200928,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.21.mlp.up_proj",
+    "cosine_similarity": 0.8792292475700378,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.21.mlp.down_proj",
+    "cosine_similarity": 0.8745479583740234,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.21.per_layer_input_gate",
+    "cosine_similarity": 0.6611431241035461,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.21.per_layer_projection",
+    "cosine_similarity": 0.8287621736526489,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.22.self_attn.k_proj",
+    "cosine_similarity": 0.9073271751403809,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.22.self_attn.q_proj",
+    "cosine_similarity": 0.8238818645477295,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.22.self_attn.v_proj",
+    "cosine_similarity": 0.9074581861495972,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.22.self_attn.o_proj",
+    "cosine_similarity": 0.8683405518531799,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.22.mlp.gate_proj",
+    "cosine_similarity": 0.8519725799560547,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.22.mlp.up_proj",
+    "cosine_similarity": 0.8774682283401489,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.22.mlp.down_proj",
+    "cosine_similarity": 0.8747599124908447,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.22.per_layer_input_gate",
+    "cosine_similarity": 0.6996052265167236,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.22.per_layer_projection",
+    "cosine_similarity": 0.8461740016937256,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.23.self_attn.k_proj",
+    "cosine_similarity": 0.9074443578720093,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.23.self_attn.q_proj",
+    "cosine_similarity": 0.8222719430923462,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.23.self_attn.v_proj",
+    "cosine_similarity": 0.9076648950576782,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.23.self_attn.o_proj",
+    "cosine_similarity": 0.8651574850082397,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.23.mlp.gate_proj",
+    "cosine_similarity": 0.8479772806167603,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.23.mlp.up_proj",
+    "cosine_similarity": 0.8684298992156982,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.23.mlp.down_proj",
+    "cosine_similarity": 0.863900899887085,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.23.per_layer_input_gate",
+    "cosine_similarity": 0.7448351383209229,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.23.per_layer_projection",
+    "cosine_similarity": 0.8529946804046631,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.24.self_attn.k_proj",
+    "cosine_similarity": 0.9074276685714722,
+    "sensitive": false,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.24.self_attn.q_proj",
+    "cosine_similarity": 0.848507285118103,
+    "sensitive": true,
+    "weight_shape": [
+      4096,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.24.self_attn.v_proj",
+    "cosine_similarity": 0.9075965881347656,
+    "sensitive": false,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.24.self_attn.o_proj",
+    "cosine_similarity": 0.8616776466369629,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.24.mlp.gate_proj",
+    "cosine_similarity": 0.84287029504776,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.24.mlp.up_proj",
+    "cosine_similarity": 0.863117516040802,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.24.mlp.down_proj",
+    "cosine_similarity": 0.8623740673065186,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.24.per_layer_input_gate",
+    "cosine_similarity": 0.856035590171814,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.24.per_layer_projection",
+    "cosine_similarity": 0.8421630859375,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.25.self_attn.k_proj",
+    "cosine_similarity": 0.9076277017593384,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.25.self_attn.q_proj",
+    "cosine_similarity": 0.8229854702949524,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.25.self_attn.v_proj",
+    "cosine_similarity": 0.9075237512588501,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.25.self_attn.o_proj",
+    "cosine_similarity": 0.856637716293335,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.25.mlp.gate_proj",
+    "cosine_similarity": 0.8562922477722168,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.25.mlp.up_proj",
+    "cosine_similarity": 0.8755172491073608,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.25.mlp.down_proj",
+    "cosine_similarity": 0.8700830936431885,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.25.per_layer_input_gate",
+    "cosine_similarity": 0.8714046478271484,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.25.per_layer_projection",
+    "cosine_similarity": 0.8509955406188965,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.26.self_attn.k_proj",
+    "cosine_similarity": 0.9076972007751465,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.26.self_attn.q_proj",
+    "cosine_similarity": 0.8229426741600037,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.26.self_attn.v_proj",
+    "cosine_similarity": 0.9074736833572388,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.26.self_attn.o_proj",
+    "cosine_similarity": 0.8586275577545166,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.26.mlp.gate_proj",
+    "cosine_similarity": 0.8651591539382935,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.26.mlp.up_proj",
+    "cosine_similarity": 0.8783447742462158,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.26.mlp.down_proj",
+    "cosine_similarity": 0.874402642250061,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.26.per_layer_input_gate",
+    "cosine_similarity": 0.8709173798561096,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.26.per_layer_projection",
+    "cosine_similarity": 0.8629013299942017,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.27.self_attn.k_proj",
+    "cosine_similarity": 0.9075530767440796,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.27.self_attn.q_proj",
+    "cosine_similarity": 0.8296192288398743,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.27.self_attn.v_proj",
+    "cosine_similarity": 0.9073981046676636,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.27.self_attn.o_proj",
+    "cosine_similarity": 0.8508685827255249,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.27.mlp.gate_proj",
+    "cosine_similarity": 0.8662089109420776,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.27.mlp.up_proj",
+    "cosine_similarity": 0.8787171840667725,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.27.mlp.down_proj",
+    "cosine_similarity": 0.8776602745056152,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.27.per_layer_input_gate",
+    "cosine_similarity": 0.8748749494552612,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.27.per_layer_projection",
+    "cosine_similarity": 0.8647217750549316,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.28.self_attn.k_proj",
+    "cosine_similarity": 0.9074151515960693,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.28.self_attn.q_proj",
+    "cosine_similarity": 0.8252032399177551,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.28.self_attn.v_proj",
+    "cosine_similarity": 0.9076377749443054,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.28.self_attn.o_proj",
+    "cosine_similarity": 0.8499892950057983,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.28.mlp.gate_proj",
+    "cosine_similarity": 0.8641916513442993,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.28.mlp.up_proj",
+    "cosine_similarity": 0.8792241811752319,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.28.mlp.down_proj",
+    "cosine_similarity": 0.8791871070861816,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.28.per_layer_input_gate",
+    "cosine_similarity": 0.8760858178138733,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.28.per_layer_projection",
+    "cosine_similarity": 0.863760232925415,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.29.self_attn.k_proj",
+    "cosine_similarity": 0.907357931137085,
+    "sensitive": false,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.29.self_attn.q_proj",
+    "cosine_similarity": 0.8452385663986206,
+    "sensitive": true,
+    "weight_shape": [
+      4096,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.29.self_attn.v_proj",
+    "cosine_similarity": 0.9071024656295776,
+    "sensitive": false,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.29.self_attn.o_proj",
+    "cosine_similarity": 0.860908031463623,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.29.mlp.gate_proj",
+    "cosine_similarity": 0.8742283582687378,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.29.mlp.up_proj",
+    "cosine_similarity": 0.8817167282104492,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.29.mlp.down_proj",
+    "cosine_similarity": 0.879311203956604,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.29.per_layer_input_gate",
+    "cosine_similarity": 0.8736841678619385,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.29.per_layer_projection",
+    "cosine_similarity": 0.8290655612945557,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.30.self_attn.k_proj",
+    "cosine_similarity": 0.9074459075927734,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.30.self_attn.q_proj",
+    "cosine_similarity": 0.8372576832771301,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.30.self_attn.v_proj",
+    "cosine_similarity": 0.9075762033462524,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.30.self_attn.o_proj",
+    "cosine_similarity": 0.8699536323547363,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.30.mlp.gate_proj",
+    "cosine_similarity": 0.8749178647994995,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.30.mlp.up_proj",
+    "cosine_similarity": 0.8839002847671509,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.30.mlp.down_proj",
+    "cosine_similarity": 0.8822290897369385,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.30.per_layer_input_gate",
+    "cosine_similarity": 0.8658819794654846,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.30.per_layer_projection",
+    "cosine_similarity": 0.7803255915641785,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.31.self_attn.k_proj",
+    "cosine_similarity": 0.9075992107391357,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.31.self_attn.q_proj",
+    "cosine_similarity": 0.8370150327682495,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.31.self_attn.v_proj",
+    "cosine_similarity": 0.9077801704406738,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.31.self_attn.o_proj",
+    "cosine_similarity": 0.8630009293556213,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.31.mlp.gate_proj",
+    "cosine_similarity": 0.8771491646766663,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.31.mlp.up_proj",
+    "cosine_similarity": 0.8845290541648865,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.31.mlp.down_proj",
+    "cosine_similarity": 0.8820335865020752,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.31.per_layer_input_gate",
+    "cosine_similarity": 0.8675189018249512,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.31.per_layer_projection",
+    "cosine_similarity": 0.7841598987579346,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.32.self_attn.k_proj",
+    "cosine_similarity": 0.9077587723731995,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.32.self_attn.q_proj",
+    "cosine_similarity": 0.8355725407600403,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.32.self_attn.v_proj",
+    "cosine_similarity": 0.9075978994369507,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.32.self_attn.o_proj",
+    "cosine_similarity": 0.867485761642456,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.32.mlp.gate_proj",
+    "cosine_similarity": 0.8701696395874023,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.32.mlp.up_proj",
+    "cosine_similarity": 0.8839879035949707,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.32.mlp.down_proj",
+    "cosine_similarity": 0.880970299243927,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.32.per_layer_input_gate",
+    "cosine_similarity": 0.8628395199775696,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.32.per_layer_projection",
+    "cosine_similarity": 0.7631946802139282,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.33.self_attn.k_proj",
+    "cosine_similarity": 0.9076716899871826,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.33.self_attn.q_proj",
+    "cosine_similarity": 0.837431788444519,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.33.self_attn.v_proj",
+    "cosine_similarity": 0.9072800278663635,
+    "sensitive": false,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.33.self_attn.o_proj",
+    "cosine_similarity": 0.8679508566856384,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.33.mlp.gate_proj",
+    "cosine_similarity": 0.8565633296966553,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.33.mlp.up_proj",
+    "cosine_similarity": 0.8809400796890259,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.33.mlp.down_proj",
+    "cosine_similarity": 0.8757998943328857,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.33.per_layer_input_gate",
+    "cosine_similarity": 0.8443561792373657,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.33.per_layer_projection",
+    "cosine_similarity": 0.8463141918182373,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.34.self_attn.k_proj",
+    "cosine_similarity": 0.907483696937561,
+    "sensitive": false,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.34.self_attn.q_proj",
+    "cosine_similarity": 0.8545335531234741,
+    "sensitive": true,
+    "weight_shape": [
+      4096,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.34.self_attn.v_proj",
+    "cosine_similarity": 0.9077153205871582,
+    "sensitive": false,
+    "weight_shape": [
+      512,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.34.self_attn.o_proj",
+    "cosine_similarity": 0.8582257032394409,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.34.mlp.gate_proj",
+    "cosine_similarity": 0.8551098704338074,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.34.mlp.up_proj",
+    "cosine_similarity": 0.876299262046814,
+    "sensitive": true,
+    "weight_shape": [
+      12288,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.34.mlp.down_proj",
+    "cosine_similarity": 0.8693932890892029,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      12288
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.34.per_layer_input_gate",
+    "cosine_similarity": 0.768380880355835,
+    "sensitive": true,
+    "weight_shape": [
+      256,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.language_model.layers.34.per_layer_projection",
+    "cosine_similarity": 0.8316507339477539,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      256
+    ]
+  },
+  {
+    "layer_name": "model.language_model.per_layer_model_projection",
+    "cosine_similarity": 0.8631359934806824,
+    "sensitive": true,
+    "weight_shape": [
+      8960,
+      1536
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.patch_embedder.input_proj",
+    "cosine_similarity": 0.7781419157981873,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.0.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8229529857635498,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.0.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8406598567962646,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.0.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8156336545944214,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.0.self_attn.o_proj.linear",
+    "cosine_similarity": 0.7064810395240784,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.0.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8504915237426758,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.0.mlp.up_proj.linear",
+    "cosine_similarity": 0.8519229888916016,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.0.mlp.down_proj.linear",
+    "cosine_similarity": 0.8298206925392151,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.1.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8559507727622986,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.1.self_attn.k_proj.linear",
+    "cosine_similarity": 0.854388952255249,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.1.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8353838920593262,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.1.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8039449453353882,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.1.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8634037375450134,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.1.mlp.up_proj.linear",
+    "cosine_similarity": 0.8639107942581177,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.1.mlp.down_proj.linear",
+    "cosine_similarity": 0.8367511630058289,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.2.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8648183345794678,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.2.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8523542881011963,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.2.self_attn.v_proj.linear",
+    "cosine_similarity": 0.85402911901474,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.2.self_attn.o_proj.linear",
+    "cosine_similarity": 0.7631886601448059,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.2.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8642130494117737,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.2.mlp.up_proj.linear",
+    "cosine_similarity": 0.8657329678535461,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.2.mlp.down_proj.linear",
+    "cosine_similarity": 0.8410782217979431,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.3.self_attn.q_proj.linear",
+    "cosine_similarity": 0.864894688129425,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.3.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8627296686172485,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.3.self_attn.v_proj.linear",
+    "cosine_similarity": 0.857977032661438,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.3.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8413420915603638,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.3.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8650813698768616,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.3.mlp.up_proj.linear",
+    "cosine_similarity": 0.8675388097763062,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.3.mlp.down_proj.linear",
+    "cosine_similarity": 0.8482062816619873,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.4.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8709515929222107,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.4.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8594955205917358,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.4.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8657568693161011,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.4.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8311463594436646,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.4.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8635672926902771,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.4.mlp.up_proj.linear",
+    "cosine_similarity": 0.8668644428253174,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.4.mlp.down_proj.linear",
+    "cosine_similarity": 0.8485989570617676,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.5.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8687217831611633,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.5.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8646414279937744,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.5.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8615671396255493,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.5.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8519248962402344,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.5.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8656901121139526,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.5.mlp.up_proj.linear",
+    "cosine_similarity": 0.8674770593643188,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.5.mlp.down_proj.linear",
+    "cosine_similarity": 0.8647924661636353,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.6.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8745733499526978,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.6.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8626008033752441,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.6.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8669463396072388,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.6.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8490111827850342,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.6.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8700562715530396,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.6.mlp.up_proj.linear",
+    "cosine_similarity": 0.8716326951980591,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.6.mlp.down_proj.linear",
+    "cosine_similarity": 0.8608437180519104,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.7.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8736725449562073,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.7.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8672670125961304,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.7.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8727343082427979,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.7.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8493586778640747,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.7.mlp.gate_proj.linear",
+    "cosine_similarity": 0.871043860912323,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.7.mlp.up_proj.linear",
+    "cosine_similarity": 0.872319221496582,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.7.mlp.down_proj.linear",
+    "cosine_similarity": 0.8594603538513184,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.8.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8700343370437622,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.8.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8503824472427368,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.8.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8696353435516357,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.8.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8464699983596802,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.8.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8751899003982544,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.8.mlp.up_proj.linear",
+    "cosine_similarity": 0.8750104904174805,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.8.mlp.down_proj.linear",
+    "cosine_similarity": 0.8497751355171204,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.9.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8723728656768799,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.9.self_attn.k_proj.linear",
+    "cosine_similarity": 0.843995213508606,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.9.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8770148754119873,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.9.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8744246959686279,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.9.mlp.gate_proj.linear",
+    "cosine_similarity": 0.87603759765625,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.9.mlp.up_proj.linear",
+    "cosine_similarity": 0.8760225772857666,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.9.mlp.down_proj.linear",
+    "cosine_similarity": 0.8529872894287109,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.10.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8709893226623535,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.10.self_attn.k_proj.linear",
+    "cosine_similarity": 0.847380518913269,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.10.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8774816393852234,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.10.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8677387833595276,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.10.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8750886917114258,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.10.mlp.up_proj.linear",
+    "cosine_similarity": 0.8761368989944458,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.10.mlp.down_proj.linear",
+    "cosine_similarity": 0.8607702255249023,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.11.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8733862638473511,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.11.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8573547601699829,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.11.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8717261552810669,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.11.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8597381114959717,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.11.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8800807595252991,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.11.mlp.up_proj.linear",
+    "cosine_similarity": 0.8799636960029602,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.11.mlp.down_proj.linear",
+    "cosine_similarity": 0.8597924709320068,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.12.self_attn.q_proj.linear",
+    "cosine_similarity": 0.872559666633606,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.12.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8571893572807312,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.12.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8773565888404846,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.12.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8647154569625854,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.12.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8801974058151245,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.12.mlp.up_proj.linear",
+    "cosine_similarity": 0.8798635601997375,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.12.mlp.down_proj.linear",
+    "cosine_similarity": 0.8547821044921875,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.13.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8696690797805786,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.13.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8412141799926758,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.13.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8762146234512329,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.13.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8580819368362427,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.13.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8802772760391235,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.13.mlp.up_proj.linear",
+    "cosine_similarity": 0.8805254101753235,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.13.mlp.down_proj.linear",
+    "cosine_similarity": 0.8692387342453003,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.14.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8618529438972473,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.14.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8374385833740234,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.14.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8498543500900269,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.14.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8544670343399048,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.14.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8795174956321716,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.14.mlp.up_proj.linear",
+    "cosine_similarity": 0.8799757361412048,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.14.mlp.down_proj.linear",
+    "cosine_similarity": 0.875247061252594,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.15.self_attn.q_proj.linear",
+    "cosine_similarity": 0.8562047481536865,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.15.self_attn.k_proj.linear",
+    "cosine_similarity": 0.8188917636871338,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.15.self_attn.v_proj.linear",
+    "cosine_similarity": 0.8281017541885376,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.15.self_attn.o_proj.linear",
+    "cosine_similarity": 0.8073065876960754,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.15.mlp.gate_proj.linear",
+    "cosine_similarity": 0.8822493553161621,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.15.mlp.up_proj.linear",
+    "cosine_similarity": 0.8807168006896973,
+    "sensitive": true,
+    "weight_shape": [
+      3072,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.vision_tower.encoder.layers.15.mlp.down_proj.linear",
+    "cosine_similarity": 0.8530359864234924,
+    "sensitive": true,
+    "weight_shape": [
+      768,
+      3072
+    ]
+  },
+  {
+    "layer_name": "model.embed_vision.embedding_projection",
+    "cosine_similarity": 0.8614605665206909,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      768
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.subsample_conv_projection.input_proj_linear",
+    "cosine_similarity": 0.8477555513381958,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.0.feed_forward1.ffw_layer_1.linear",
+    "cosine_similarity": 0.9452950358390808,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.0.feed_forward1.ffw_layer_2.linear",
+    "cosine_similarity": 0.9574699401855469,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.0.feed_forward2.ffw_layer_1.linear",
+    "cosine_similarity": 0.948204517364502,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.0.feed_forward2.ffw_layer_2.linear",
+    "cosine_similarity": 0.9567533731460571,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.0.self_attn.q_proj.linear",
+    "cosine_similarity": 0.9442037343978882,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.0.self_attn.k_proj.linear",
+    "cosine_similarity": 0.9486463069915771,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.0.self_attn.v_proj.linear",
+    "cosine_similarity": 0.9503271579742432,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.0.self_attn.post.linear",
+    "cosine_similarity": 0.958266019821167,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.0.self_attn.relative_k_proj",
+    "cosine_similarity": 0.8614073395729065,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.0.lconv1d.linear_start.linear",
+    "cosine_similarity": 0.877400279045105,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.0.lconv1d.linear_end.linear",
+    "cosine_similarity": 0.9543074369430542,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.1.feed_forward1.ffw_layer_1.linear",
+    "cosine_similarity": 0.9476394653320312,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.1.feed_forward1.ffw_layer_2.linear",
+    "cosine_similarity": 0.9588391780853271,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.1.feed_forward2.ffw_layer_1.linear",
+    "cosine_similarity": 0.9463589191436768,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.1.feed_forward2.ffw_layer_2.linear",
+    "cosine_similarity": 0.9571529626846313,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.1.self_attn.q_proj.linear",
+    "cosine_similarity": 0.9576212763786316,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.1.self_attn.k_proj.linear",
+    "cosine_similarity": 0.9530762434005737,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.1.self_attn.v_proj.linear",
+    "cosine_similarity": 0.9533544182777405,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.1.self_attn.post.linear",
+    "cosine_similarity": 0.9485570192337036,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.1.self_attn.relative_k_proj",
+    "cosine_similarity": 0.8454127311706543,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.1.lconv1d.linear_start.linear",
+    "cosine_similarity": 0.8786153793334961,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.1.lconv1d.linear_end.linear",
+    "cosine_similarity": 0.962549090385437,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.2.feed_forward1.ffw_layer_1.linear",
+    "cosine_similarity": 0.9462370872497559,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.2.feed_forward1.ffw_layer_2.linear",
+    "cosine_similarity": 0.9565784931182861,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.2.feed_forward2.ffw_layer_1.linear",
+    "cosine_similarity": 0.9461218118667603,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.2.feed_forward2.ffw_layer_2.linear",
+    "cosine_similarity": 0.9600000381469727,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.2.self_attn.q_proj.linear",
+    "cosine_similarity": 0.9590442776679993,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.2.self_attn.k_proj.linear",
+    "cosine_similarity": 0.9528197050094604,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.2.self_attn.v_proj.linear",
+    "cosine_similarity": 0.9481886625289917,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.2.self_attn.post.linear",
+    "cosine_similarity": 0.9537686109542847,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.2.self_attn.relative_k_proj",
+    "cosine_similarity": 0.8572156429290771,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.2.lconv1d.linear_start.linear",
+    "cosine_similarity": 0.8894050121307373,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.2.lconv1d.linear_end.linear",
+    "cosine_similarity": 0.963180422782898,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.3.feed_forward1.ffw_layer_1.linear",
+    "cosine_similarity": 0.9451907873153687,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.3.feed_forward1.ffw_layer_2.linear",
+    "cosine_similarity": 0.9509050250053406,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.3.feed_forward2.ffw_layer_1.linear",
+    "cosine_similarity": 0.9460895657539368,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.3.feed_forward2.ffw_layer_2.linear",
+    "cosine_similarity": 0.9548773765563965,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.3.self_attn.q_proj.linear",
+    "cosine_similarity": 0.9581790566444397,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.3.self_attn.k_proj.linear",
+    "cosine_similarity": 0.9520166516304016,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.3.self_attn.v_proj.linear",
+    "cosine_similarity": 0.9413955211639404,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.3.self_attn.post.linear",
+    "cosine_similarity": 0.954399824142456,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.3.self_attn.relative_k_proj",
+    "cosine_similarity": 0.8197190165519714,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.3.lconv1d.linear_start.linear",
+    "cosine_similarity": 0.8887519836425781,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.3.lconv1d.linear_end.linear",
+    "cosine_similarity": 0.9628241062164307,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.4.feed_forward1.ffw_layer_1.linear",
+    "cosine_similarity": 0.945807933807373,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.4.feed_forward1.ffw_layer_2.linear",
+    "cosine_similarity": 0.9547886848449707,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.4.feed_forward2.ffw_layer_1.linear",
+    "cosine_similarity": 0.9468371868133545,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.4.feed_forward2.ffw_layer_2.linear",
+    "cosine_similarity": 0.9635801315307617,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.4.self_attn.q_proj.linear",
+    "cosine_similarity": 0.9582328796386719,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.4.self_attn.k_proj.linear",
+    "cosine_similarity": 0.9471697807312012,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.4.self_attn.v_proj.linear",
+    "cosine_similarity": 0.9595115184783936,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.4.self_attn.post.linear",
+    "cosine_similarity": 0.9499192833900452,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.4.self_attn.relative_k_proj",
+    "cosine_similarity": 0.8569977283477783,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.4.lconv1d.linear_start.linear",
+    "cosine_similarity": 0.8885143995285034,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.4.lconv1d.linear_end.linear",
+    "cosine_similarity": 0.9638712406158447,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.5.feed_forward1.ffw_layer_1.linear",
+    "cosine_similarity": 0.9450709223747253,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.5.feed_forward1.ffw_layer_2.linear",
+    "cosine_similarity": 0.9424059391021729,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.5.feed_forward2.ffw_layer_1.linear",
+    "cosine_similarity": 0.9489073753356934,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.5.feed_forward2.ffw_layer_2.linear",
+    "cosine_similarity": 0.966887354850769,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.5.self_attn.q_proj.linear",
+    "cosine_similarity": 0.9554426670074463,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.5.self_attn.k_proj.linear",
+    "cosine_similarity": 0.9549281597137451,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.5.self_attn.v_proj.linear",
+    "cosine_similarity": 0.9608843326568604,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.5.self_attn.post.linear",
+    "cosine_similarity": 0.9483022689819336,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.5.self_attn.relative_k_proj",
+    "cosine_similarity": 0.8725756406784058,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.5.lconv1d.linear_start.linear",
+    "cosine_similarity": 0.8844695687294006,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.5.lconv1d.linear_end.linear",
+    "cosine_similarity": 0.9555681347846985,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.6.feed_forward1.ffw_layer_1.linear",
+    "cosine_similarity": 0.948233962059021,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.6.feed_forward1.ffw_layer_2.linear",
+    "cosine_similarity": 0.956802487373352,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.6.feed_forward2.ffw_layer_1.linear",
+    "cosine_similarity": 0.9474848508834839,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.6.feed_forward2.ffw_layer_2.linear",
+    "cosine_similarity": 0.9589033126831055,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.6.self_attn.q_proj.linear",
+    "cosine_similarity": 0.960281491279602,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.6.self_attn.k_proj.linear",
+    "cosine_similarity": 0.9566861391067505,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.6.self_attn.v_proj.linear",
+    "cosine_similarity": 0.9613845348358154,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.6.self_attn.post.linear",
+    "cosine_similarity": 0.9524623155593872,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.6.self_attn.relative_k_proj",
+    "cosine_similarity": 0.8478347063064575,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.6.lconv1d.linear_start.linear",
+    "cosine_similarity": 0.8784192800521851,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.6.lconv1d.linear_end.linear",
+    "cosine_similarity": 0.9656650424003601,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.7.feed_forward1.ffw_layer_1.linear",
+    "cosine_similarity": 0.9458081722259521,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.7.feed_forward1.ffw_layer_2.linear",
+    "cosine_similarity": 0.9464824199676514,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.7.feed_forward2.ffw_layer_1.linear",
+    "cosine_similarity": 0.9444423913955688,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.7.feed_forward2.ffw_layer_2.linear",
+    "cosine_similarity": 0.9578413367271423,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.7.self_attn.q_proj.linear",
+    "cosine_similarity": 0.9598397016525269,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.7.self_attn.k_proj.linear",
+    "cosine_similarity": 0.9512391090393066,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.7.self_attn.v_proj.linear",
+    "cosine_similarity": 0.957019031047821,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.7.self_attn.post.linear",
+    "cosine_similarity": 0.9414227604866028,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.7.self_attn.relative_k_proj",
+    "cosine_similarity": 0.7943797707557678,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.7.lconv1d.linear_start.linear",
+    "cosine_similarity": 0.8848637938499451,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.7.lconv1d.linear_end.linear",
+    "cosine_similarity": 0.9637967348098755,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.8.feed_forward1.ffw_layer_1.linear",
+    "cosine_similarity": 0.9455159902572632,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.8.feed_forward1.ffw_layer_2.linear",
+    "cosine_similarity": 0.955426812171936,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.8.feed_forward2.ffw_layer_1.linear",
+    "cosine_similarity": 0.9457067847251892,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.8.feed_forward2.ffw_layer_2.linear",
+    "cosine_similarity": 0.9579063653945923,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.8.self_attn.q_proj.linear",
+    "cosine_similarity": 0.9571577906608582,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.8.self_attn.k_proj.linear",
+    "cosine_similarity": 0.9450797438621521,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.8.self_attn.v_proj.linear",
+    "cosine_similarity": 0.959765613079071,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.8.self_attn.post.linear",
+    "cosine_similarity": 0.9523454308509827,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.8.self_attn.relative_k_proj",
+    "cosine_similarity": 0.8437855839729309,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.8.lconv1d.linear_start.linear",
+    "cosine_similarity": 0.8925656080245972,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.8.lconv1d.linear_end.linear",
+    "cosine_similarity": 0.9638344049453735,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.9.feed_forward1.ffw_layer_1.linear",
+    "cosine_similarity": 0.9466917514801025,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.9.feed_forward1.ffw_layer_2.linear",
+    "cosine_similarity": 0.9561514854431152,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.9.feed_forward2.ffw_layer_1.linear",
+    "cosine_similarity": 0.9476180076599121,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.9.feed_forward2.ffw_layer_2.linear",
+    "cosine_similarity": 0.9540303349494934,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.9.self_attn.q_proj.linear",
+    "cosine_similarity": 0.9586254358291626,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.9.self_attn.k_proj.linear",
+    "cosine_similarity": 0.9500414133071899,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.9.self_attn.v_proj.linear",
+    "cosine_similarity": 0.9586641788482666,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.9.self_attn.post.linear",
+    "cosine_similarity": 0.9334880113601685,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.9.self_attn.relative_k_proj",
+    "cosine_similarity": 0.8581928014755249,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.9.lconv1d.linear_start.linear",
+    "cosine_similarity": 0.8918219804763794,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.9.lconv1d.linear_end.linear",
+    "cosine_similarity": 0.9621844291687012,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.10.feed_forward1.ffw_layer_1.linear",
+    "cosine_similarity": 0.9458634853363037,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.10.feed_forward1.ffw_layer_2.linear",
+    "cosine_similarity": 0.9543638229370117,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.10.feed_forward2.ffw_layer_1.linear",
+    "cosine_similarity": 0.9481177926063538,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.10.feed_forward2.ffw_layer_2.linear",
+    "cosine_similarity": 0.9585418701171875,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.10.self_attn.q_proj.linear",
+    "cosine_similarity": 0.9580914974212646,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.10.self_attn.k_proj.linear",
+    "cosine_similarity": 0.9449902176856995,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.10.self_attn.v_proj.linear",
+    "cosine_similarity": 0.960176408290863,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.10.self_attn.post.linear",
+    "cosine_similarity": 0.9418964982032776,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.10.self_attn.relative_k_proj",
+    "cosine_similarity": 0.8474547863006592,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.10.lconv1d.linear_start.linear",
+    "cosine_similarity": 0.8855335712432861,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.10.lconv1d.linear_end.linear",
+    "cosine_similarity": 0.9607287645339966,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.11.feed_forward1.ffw_layer_1.linear",
+    "cosine_similarity": 0.9459872245788574,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.11.feed_forward1.ffw_layer_2.linear",
+    "cosine_similarity": 0.9590901136398315,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.11.feed_forward2.ffw_layer_1.linear",
+    "cosine_similarity": 0.942156195640564,
+    "sensitive": false,
+    "weight_shape": [
+      4096,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.11.feed_forward2.ffw_layer_2.linear",
+    "cosine_similarity": 0.948006272315979,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      4096
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.11.self_attn.q_proj.linear",
+    "cosine_similarity": 0.95838463306427,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.11.self_attn.k_proj.linear",
+    "cosine_similarity": 0.9473592042922974,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.11.self_attn.v_proj.linear",
+    "cosine_similarity": 0.9582964777946472,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.11.self_attn.post.linear",
+    "cosine_similarity": 0.9441001415252686,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.11.self_attn.relative_k_proj",
+    "cosine_similarity": 0.8536123037338257,
+    "sensitive": true,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.11.lconv1d.linear_start.linear",
+    "cosine_similarity": 0.8836344480514526,
+    "sensitive": true,
+    "weight_shape": [
+      2048,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.layers.11.lconv1d.linear_end.linear",
+    "cosine_similarity": 0.9560370445251465,
+    "sensitive": false,
+    "weight_shape": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.audio_tower.output_proj",
+    "cosine_similarity": 0.856559157371521,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "layer_name": "model.embed_audio.embedding_projection",
+    "cosine_similarity": 0.869617223739624,
+    "sensitive": true,
+    "weight_shape": [
+      1536,
+      1536
+    ]
+  },
+  {
+    "layer_name": "lm_head",
+    "cosine_similarity": 0.876639723777771,
+    "sensitive": true,
+    "weight_shape": [
+      262144,
+      1536
+    ]
+  }
+]

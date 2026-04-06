@@ -1,0 +1,43 @@
+============================================================
+LAYER-BY-LAYER SENSITIVITY ANALYSIS REPORT
+============================================================
+
+AVERAGE CORRELATION BY QUANTIZATION LEVEL:
+  fp16: 1.0000
+  int8: 0.0803
+  int4: 0.0749
+  1bit: 0.7629
+
+MOST SENSITIVE LAYERS TO 1-BIT QUANTIZATION:
+(Lowest correlation = most sensitive)
+  Layer 6: model.layers.0.self_attn.q_proj (correlation: 0.6825)
+  Layer 189: model.layers.14.self_attn.k_proj (correlation: 0.6883)
+  Layer 307: model.layers.23.self_attn.v_proj (correlation: 0.6977)
+  Layer 344: model.layers.26.self_attn.q_proj (correlation: 0.7018)
+  Layer 320: model.layers.24.self_attn.v_proj (correlation: 0.7032)
+  Layer 358: model.layers.27.self_attn.k_proj (correlation: 0.7045)
+  Layer 188: model.layers.14.self_attn.q_proj (correlation: 0.7071)
+  Layer 357: model.layers.27.self_attn.q_proj (correlation: 0.7090)
+  Layer 360: model.layers.27.self_attn.o_proj (correlation: 0.7115)
+  Layer 254: model.layers.19.self_attn.k_proj (correlation: 0.7120)
+
+MOST TOLERANT LAYERS TO 1-BIT QUANTIZATION:
+(Highest correlation = most tolerant)
+  Layer 116: model.layers.8.mlp.up_proj (correlation: 0.7878)
+  Layer 129: model.layers.9.mlp.up_proj (correlation: 0.7879)
+  Layer 76: model.layers.5.mlp.gate_proj (correlation: 0.7883)
+  Layer 12: model.layers.0.mlp.up_proj (correlation: 0.7887)
+  Layer 90: model.layers.6.mlp.up_proj (correlation: 0.7891)
+  Layer 13: model.layers.0.mlp.down_proj (correlation: 0.7909)
+  Layer 324: model.layers.24.mlp.up_proj (correlation: 0.7910)
+  Layer 337: model.layers.25.mlp.up_proj (correlation: 0.7910)
+  Layer 37: model.layers.2.mlp.gate_proj (correlation: 0.7911)
+  Layer 24: model.layers.1.mlp.gate_proj (correlation: 0.7918)
+
+RECOMMENDATIONS:
+  - 197/197 layers are sensitive to 1-bit quantization (correlation < 0.9)
+  - 0/197 layers tolerate 1-bit quantization well
+  - WARNING: Majority of layers are sensitive to 1-bit
+  - Recommendation: Use INT4 or INT8 for better quality
+
+============================================================

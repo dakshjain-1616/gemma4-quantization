@@ -1,0 +1,9 @@
+{
+  "total_layers": 566,
+  "sensitive_layers_count": 418,
+  "tolerant_layers_count": 148,
+  "cosine_sim_min": 0.6611431241035461,
+  "cosine_sim_max": 0.966887354850769,
+  "cosine_sim_mean": 0.873353123664856,
+  "threshold": 0.9
+}

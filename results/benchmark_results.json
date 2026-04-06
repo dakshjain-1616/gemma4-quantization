@@ -1,0 +1,30 @@
+{
+  "fp16": {
+    "quantization_level": "fp16",
+    "perplexity": 127575.28036678363,
+    "memory_gb": 10.246877696,
+    "inference_time_ms": 67.5854969304055,
+    "samples_per_sec": 14.796073794200632
+  },
+  "int8": {
+    "quantization_level": "int8",
+    "perplexity": 87204.76807571283,
+    "memory_gb": 20.50607616,
+    "inference_time_ms": 67.17069811808567,
+    "samples_per_sec": 14.887443900642602
+  },
+  "int4": {
+    "quantization_level": "int4",
+    "perplexity": 3594112225964632.0,
+    "memory_gb": 20.533208064,
+    "inference_time_ms": 68.92798090767529,
+    "samples_per_sec": 14.507896311940971
+  },
+  "bit1": {
+    "quantization_level": "bit1",
+    "perplexity": 65327058492.174614,
+    "memory_gb": 20.533208064,
+    "inference_time_ms": 70.66768423343699,
+    "samples_per_sec": 14.150739632229833
+  }
+}
