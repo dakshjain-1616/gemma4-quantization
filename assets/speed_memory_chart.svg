@@ -1,25 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" width="700" height="280">
-  <rect width="700" height="280" rx="12" fill="#0d1117"/>
-  <text x="350" y="30" text-anchor="middle" font-family="monospace" font-size="14" font-weight="bold" fill="#f0f6fc">Memory &amp; Inference Speed — gemma-4-E2B-it</text>
-  <!-- Memory section -->
-  <text x="180" y="58" text-anchor="middle" font-family="monospace" font-size="11" fill="#8b949e">GPU Memory (GB loaded)</text>
-  <line x1="30" y1="80" x2="30" y2="205" stroke="#30363d" stroke-width="1"/>
-  <line x1="30" y1="200" x2="650" y2="200" stroke="#30363d" stroke-width="1"/>
-  <rect x="40" y="150.8" width="50" height="49.2" rx="3" fill="#34d399" opacity="0.8"/><text x="65" y="145.8" text-anchor="middle" font-family="monospace" font-size="10" fill="#34d399">10.2GB</text><text x="65" y="218" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#34d399">FP16</text><rect x="190" y="101.6" width="50" height="98.4" rx="3" fill="#8b5cf6" opacity="0.8"/><text x="215" y="96.6" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b5cf6">20.5GB</text><text x="215" y="218" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#8b5cf6">INT8</text><rect x="340" y="101.5" width="50" height="98.5" rx="3" fill="#f87171" opacity="0.8"/><text x="365" y="96.5" text-anchor="middle" font-family="monospace" font-size="10" fill="#f87171">20.5GB</text><text x="365" y="218" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#f87171">INT4</text><rect x="490" y="101.5" width="50" height="98.5" rx="3" fill="#fca5a5" opacity="0.8"/><text x="515" y="96.5" text-anchor="middle" font-family="monospace" font-size="10" fill="#fca5a5">20.5GB</text><text x="515" y="218" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#fca5a5">1-bit</text>
-  <!-- Grid -->
-  <line x1="30" y1="152" x2="650" y2="152" stroke="#21262d" stroke-width="1" stroke-dasharray="3,3"/>
-  <text x="22" y="156" text-anchor="end" font-family="monospace" font-size="9" fill="#8b949e">12GB</text>
-  <text x="22" y="204" text-anchor="end" font-family="monospace" font-size="9" fill="#8b949e">0</text>
-  <!-- Speed table -->
-  <rect x="30" y="230" width="640" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <text x="60" y="248" font-family="monospace" font-size="10" fill="#8b949e">Inference (ms/sample)</text>
-  <text x="220" y="248" font-family="monospace" font-size="11" font-weight="bold" fill="#34d399">67.6ms</text>
-  <text x="330" y="248" font-family="monospace" font-size="11" font-weight="bold" fill="#8b5cf6">67.2ms</text>
-  <text x="440" y="248" font-family="monospace" font-size="11" font-weight="bold" fill="#f87171">68.9ms</text>
-  <text x="550" y="248" font-family="monospace" font-size="11" font-weight="bold" fill="#fca5a5">70.7ms</text>
-  <text x="60" y="263" font-family="monospace" font-size="10" fill="#8b949e">Throughput (samples/s)</text>
-  <text x="220" y="263" font-family="monospace" font-size="10" fill="#34d399">14.8</text>
-  <text x="330" y="263" font-family="monospace" font-size="10" fill="#8b5cf6">14.9</text>
-  <text x="440" y="263" font-family="monospace" font-size="10" fill="#f87171">14.5</text>
-  <text x="550" y="263" font-family="monospace" font-size="10" fill="#fca5a5">14.1</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="320" viewBox="0 0 700 320">
+  <defs>
+    <style>.mono { font-family: 'Courier New', Courier, monospace; }</style>
+    <linearGradient id="gFP16" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#34d399"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+    <linearGradient id="gINT8" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="gINT4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f87171"/><stop offset="100%" stop-color="#dc2626"/></linearGradient>
+    <linearGradient id="gBIT1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fca5a5"/><stop offset="100%" stop-color="#991b1b"/></linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="320" rx="10" fill="#0d1117"/>
+
+  <!-- ── SECTION 1: Theoretical Memory ── -->
+  <text x="350" y="24" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#f0f6fc">Memory &amp; Inference — gemma-4-E2B-it (5.12B params)</text>
+  <text x="350" y="42" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">Theoretical memory footprint per precision level</text>
+
+  <!-- Chart area: x=60..660, y=55..175, h=120 -->
+  <!-- Max = 12GB (FP16 base). Scale bars to that. -->
+  <!-- FP16 = 10.25GB = 85.4% of 12GB → h=102.5 -->
+  <!-- INT8 = 5.12GB  = 42.7% → h=51.2  (theoretical: half of FP16) -->
+  <!-- INT4 = 2.56GB  = 21.3% → h=25.6  (theoretical: quarter) -->
+  <!-- 1bit = 0.80GB  = 6.7%  → h=8     (theoretical: ~1/13) -->
+
+  <line x1="60" y1="55" x2="60" y2="180" stroke="#30363d" stroke-width="1"/>
+  <line x1="60" y1="175" x2="660" y2="175" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Y gridlines -->
+  <line x1="60" y1="175" x2="660" y2="175" stroke="#21262d" stroke-width="1"/>
+  <line x1="60" y1="115" x2="660" y2="115" stroke="#21262d" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="60" y1="55"  x2="660" y2="55"  stroke="#21262d" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="52" y="179" text-anchor="end" class="mono" font-size="9" fill="#8b949e">0</text>
+  <text x="52" y="119" text-anchor="end" class="mono" font-size="9" fill="#8b949e">6GB</text>
+  <text x="52" y="59"  text-anchor="end" class="mono" font-size="9" fill="#8b949e">12GB</text>
+
+  <!-- FP16 bar: h=102, y=73 -->
+  <rect x="105" y="73" width="90" height="102" rx="4" fill="url(#gFP16)"/>
+  <text x="150" y="67" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#34d399">10.25 GB</text>
+  <text x="150" y="193" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#34d399">FP16</text>
+  <text x="150" y="207" text-anchor="middle" class="mono" font-size="9" fill="#8b949e">baseline</text>
+
+  <!-- INT8 bar: h=51, y=124 -->
+  <rect x="255" y="124" width="90" height="51" rx="4" fill="url(#gINT8)"/>
+  <text x="300" y="118" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#a78bfa">5.12 GB</text>
+  <text x="300" y="193" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#a78bfa">INT8</text>
+  <text x="300" y="207" text-anchor="middle" class="mono" font-size="9" fill="#3fb950">2× smaller ✓</text>
+
+  <!-- INT4 bar: h=26, y=149 -->
+  <rect x="405" y="149" width="90" height="26" rx="4" fill="url(#gINT4)"/>
+  <text x="450" y="143" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#f87171">2.56 GB</text>
+  <text x="450" y="193" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#f87171">INT4</text>
+  <text x="450" y="207" text-anchor="middle" class="mono" font-size="9" fill="#8b949e">4× smaller</text>
+
+  <!-- 1-bit bar: h=8, y=167 -->
+  <rect x="555" y="167" width="90" height="8" rx="3" fill="url(#gBIT1)"/>
+  <text x="600" y="161" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#fca5a5">0.80 GB</text>
+  <text x="600" y="193" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#fca5a5">1-bit</text>
+  <text x="600" y="207" text-anchor="middle" class="mono" font-size="9" fill="#8b949e">13× smaller</text>
+
+  <text x="350" y="222" text-anchor="middle" class="mono" font-size="9" fill="#484f58">* Theoretical values. Simulation held full FP16 weights in VRAM; real savings only with hardware-native kernels (bitsandbytes, BitNet).</text>
+
+  <!-- ── SECTION 2: Inference speed table ── -->
+  <rect x="10" y="234" width="680" height="76" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="350" y="253" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#f0f6fc">Inference Latency  (simulated quantization · RTX A6000)</text>
+
+  <!-- Headers -->
+  <text x="130" y="271" text-anchor="middle" class="mono" font-size="10" fill="#34d399">FP16</text>
+  <text x="280" y="271" text-anchor="middle" class="mono" font-size="10" fill="#a78bfa">INT8</text>
+  <text x="430" y="271" text-anchor="middle" class="mono" font-size="10" fill="#f87171">INT4</text>
+  <text x="580" y="271" text-anchor="middle" class="mono" font-size="10" fill="#fca5a5">1-bit</text>
+
+  <!-- Latency row -->
+  <text x="30" y="287" class="mono" font-size="10" fill="#8b949e">ms / sample</text>
+  <text x="130" y="287" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#34d399">67.6</text>
+  <text x="280" y="287" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#a78bfa">67.2</text>
+  <text x="430" y="287" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#f87171">68.9</text>
+  <text x="580" y="287" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#fca5a5">70.7</text>
+
+  <!-- Throughput row -->
+  <text x="30" y="303" class="mono" font-size="10" fill="#8b949e">samples / s</text>
+  <text x="130" y="303" text-anchor="middle" class="mono" font-size="11" fill="#34d399">14.8</text>
+  <text x="280" y="303" text-anchor="middle" class="mono" font-size="11" fill="#a78bfa">14.9</text>
+  <text x="430" y="303" text-anchor="middle" class="mono" font-size="11" fill="#f87171">14.5</text>
+  <text x="580" y="303" text-anchor="middle" class="mono" font-size="11" fill="#fca5a5">14.1</text>
 </svg>

@@ -1,46 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="200" viewBox="0 0 700 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="260" viewBox="0 0 700 260">
   <defs>
-    <style>.title { font-family: monospace; font-size: 11px; fill: #8b949e; letter-spacing: 0.08em; text-transform: uppercase; }
-    .big-num { font-family: monospace; font-size: 22px; font-weight: 700; }
-    .label { font-family: monospace; font-size: 10px; fill: #8b949e; }</style>
+    <style>
+      .mono { font-family: 'Courier New', Courier, monospace; }
+    </style>
   </defs>
-  <rect width="700" height="200" rx="8" fill="#0d1117"/>
-  <text x="350" y="22" text-anchor="middle" class="title">KEY FINDINGS — gemma-4-E2B-it 1-Bit Quantization Study</text>
+
+  <!-- Background -->
+  <rect width="700" height="260" rx="10" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="350" y="24" text-anchor="middle" class="mono" font-size="11" fill="#8b949e" letter-spacing="1">KEY FINDINGS — gemma-4-E2B-it · 1-BIT QUANTIZATION STUDY</text>
 
   <!-- Card 1: INT8 improvement -->
-  <rect x="12" y="32" width="160" height="100" rx="8" fill="#161b22" stroke="#8b5cf6" stroke-width="1.5"/>
-  <text x="92" y="54" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e">INT8 vs FP16</text>
-  <text x="92" y="84" text-anchor="middle" class="big-num" fill="#8b5cf6">+31.7%</text>
-  <text x="92" y="102" text-anchor="middle" class="label">perplexity improvement</text>
-  <text x="92" y="118" text-anchor="middle" class="label">87K vs 127K</text>
-  <text x="92" y="132" text-anchor="middle" font-family="monospace" font-size="9" fill="#3fb950">INT8 is the sweet spot</text>
+  <rect x="10" y="36" width="160" height="110" rx="8" fill="#161b22" stroke="#8b5cf6" stroke-width="1.5"/>
+  <text x="90" y="56" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">INT8 vs FP16</text>
+  <text x="90" y="90" text-anchor="middle" class="mono" font-size="26" font-weight="700" fill="#8b5cf6">+31.7%</text>
+  <text x="90" y="108" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">perplexity improvement</text>
+  <text x="90" y="122" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">87,205 vs 127,575</text>
+  <text x="90" y="138" text-anchor="middle" class="mono" font-size="9" fill="#3fb950">✓ recommended</text>
 
   <!-- Card 2: 1-bit degradation -->
-  <rect x="184" y="32" width="160" height="100" rx="8" fill="#161b22" stroke="#f87171" stroke-width="1.5"/>
-  <text x="264" y="54" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e">1-bit Degradation</text>
-  <text x="264" y="84" text-anchor="middle" class="big-num" fill="#f87171">512K×</text>
-  <text x="264" y="102" text-anchor="middle" class="label">perplexity explosion</text>
-  <text x="264" y="118" text-anchor="middle" class="label">65B vs 127K</text>
-  <text x="264" y="132" text-anchor="middle" font-family="monospace" font-size="9" fill="#da3633">random output</text>
+  <rect x="182" y="36" width="160" height="110" rx="8" fill="#161b22" stroke="#f87171" stroke-width="1.5"/>
+  <text x="262" y="56" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">1-bit Degradation</text>
+  <text x="262" y="90" text-anchor="middle" class="mono" font-size="26" font-weight="700" fill="#f87171">512K×</text>
+  <text x="262" y="108" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">perplexity explosion</text>
+  <text x="262" y="122" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">65B vs 127K</text>
+  <text x="262" y="138" text-anchor="middle" class="mono" font-size="9" fill="#da3633">✗ random output</text>
 
-  <!-- Card 3: Layer sensitivity -->
-  <rect x="356" y="32" width="160" height="100" rx="8" fill="#161b22" stroke="#f0883e" stroke-width="1.5"/>
-  <text x="436" y="54" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e">Tolerant Layers</text>
-  <text x="436" y="84" text-anchor="middle" class="big-num" fill="#f0883e">26.1%</text>
-  <text x="436" y="102" text-anchor="middle" class="label">148 of 566 layers</text>
-  <text x="436" y="118" text-anchor="middle" class="label">cos-sim ≥ 0.90</text>
-  <text x="436" y="132" text-anchor="middle" font-family="monospace" font-size="9" fill="#f0883e">hybrid INT8/1-bit possible</text>
+  <!-- Card 3: Tolerant layers -->
+  <rect x="354" y="36" width="160" height="110" rx="8" fill="#161b22" stroke="#f0883e" stroke-width="1.5"/>
+  <text x="434" y="56" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">Tolerant Layers</text>
+  <text x="434" y="90" text-anchor="middle" class="mono" font-size="26" font-weight="700" fill="#f0883e">26.1%</text>
+  <text x="434" y="108" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">148 / 566 layers</text>
+  <text x="434" y="122" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">cosine-sim ≥ 0.90</text>
+  <text x="434" y="138" text-anchor="middle" class="mono" font-size="9" fill="#f0883e">hybrid path viable</text>
 
   <!-- Card 4: Inference speed -->
-  <rect x="528" y="32" width="160" height="100" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
-  <text x="608" y="54" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e">Inference Speed</text>
-  <text x="608" y="84" text-anchor="middle" class="big-num" fill="#58a6ff">~67ms</text>
-  <text x="608" y="102" text-anchor="middle" class="label">all precision levels</text>
-  <text x="608" y="118" text-anchor="middle" class="label">no speedup at runtime</text>
-  <text x="608" y="132" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">sim quant (no hw kernels)</text>
+  <rect x="526" y="36" width="164" height="110" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+  <text x="608" y="56" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">Inference Speed</text>
+  <text x="608" y="90" text-anchor="middle" class="mono" font-size="26" font-weight="700" fill="#58a6ff">~68ms</text>
+  <text x="608" y="108" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">all precision levels</text>
+  <text x="608" y="122" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">no runtime speedup</text>
+  <text x="608" y="138" text-anchor="middle" class="mono" font-size="9" fill="#8b949e">sim quant · no hw kernels</text>
+
+  <!-- Divider -->
+  <line x1="10" y1="160" x2="690" y2="160" stroke="#21262d" stroke-width="1"/>
 
   <!-- Recommendation bar -->
-  <rect x="12" y="144" width="676" height="44" rx="6" fill="#0a1f0a" stroke="#238636" stroke-width="1"/>
-  <text x="350" y="162" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#3fb950">RECOMMENDATION</text>
-  <text x="350" y="179" text-anchor="middle" font-family="monospace" font-size="10" fill="#e6edf3">Use INT8 uniformly — 31.7% quality gain over FP16 at 2× memory savings. 26.1% of layers tolerate 1-bit (hybrid path viable with dedicated kernels).</text>
+  <rect x="10" y="168" width="680" height="80" rx="8" fill="#0a1f0a" stroke="#238636" stroke-width="1.5"/>
+  <text x="350" y="189" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#3fb950">RECOMMENDATION</text>
+  <text x="350" y="209" text-anchor="middle" class="mono" font-size="10" fill="#e6edf3">Deploy with INT8: 31.7% perplexity gain over FP16 at 2× theoretical memory reduction.</text>
+  <text x="350" y="226" text-anchor="middle" class="mono" font-size="10" fill="#e6edf3">26.1% of Gemma-4 layers survive 1-bit — hybrid quantization feasible with BitNet kernels.</text>
+  <text x="350" y="243" text-anchor="middle" class="mono" font-size="10" fill="#8b949e">Do not deploy INT4 or 1-bit without BitNet-native training from scratch.</text>
 </svg>
