@@ -1,7 +1,7 @@
 # Quantization Feasibility Study: BF16 → INT8 → INT4 → 1-bit
 
-> This study — including code execution, bug fixing, analysis, and report generation — was conducted autonomously by **[NEO — Your Autonomous AI Agent](https://heyneo.com)**.  
-> Try NEO: [heyneo.com](https://heyneo.com) · [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=NeoResearchInc.heyneo)
+[![Built with NEO](https://img.shields.io/badge/Built%20with-NEO%20Autonomous%20AI-6366f1?style=for-the-badge&logoColor=white)](https://heyneo.com)
+[![VS Code Extension](https://img.shields.io/badge/VS%20Code-NEO%20Extension-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=NeoResearchInc.heyneo)
 
 **Model:** `google/gemma-4-E2B-it` — 5.12B parameters · vocab 262,144 tokens  
 **Hardware:** NVIDIA RTX 6000 Ada Generation (49 GB VRAM)  
