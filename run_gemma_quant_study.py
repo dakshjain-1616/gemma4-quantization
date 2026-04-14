@@ -2,7 +2,7 @@
 """
 1-Bit Quantization Feasibility Study — google/gemma-4-E2B-it
 Replaces the Qwen3.5-2B proxy with the actual Gemma-4 architecture.
-Runs: FP16 → INT8 → INT4 → 1-bit sweep + full layer sensitivity analysis.
+Runs: BF16 → INT8 → INT4 → 1-bit sweep + full layer sensitivity analysis.
 Outputs: results/benchmark_results.json, analysis/, SVGs, updated README.
 """
 
@@ -195,12 +195,12 @@ def main():
     # Theoretical memory: simulated quant dequantizes back to BF16, so
     # torch.cuda.memory_allocated() always reflects two BF16 copies (~20 GB).
     # Report theoretical deployment memory derived from parameter count instead.
-    bytes_per_param = {"fp16": 2.0, "int8": 1.0, "int4": 0.5, "bit1": 0.1976}  # 1.58-bit ternary
+    bytes_per_param = {"bf16": 2.0, "int8": 1.0, "int4": 0.5, "bit1": 0.1976}  # 1.58-bit ternary
     theoretical_mem = {lvl: n_params * bpp / 1e9 for lvl, bpp in bytes_per_param.items()}
 
     benchmark = {}
     quant_configs = [
-        ("fp16",  None,          model_bf16),
+        ("bf16",  None,          model_bf16),
         ("int8",  quantize_int8, None),
         ("int4",  quantize_int4, None),
         ("bit1",  quantize_1bit, None),
@@ -227,19 +227,20 @@ def main():
         json.dump(benchmark, f, indent=2)
 
     # ── Summary report ───────────────────────────────────────────────────────
+    label = {"bf16": "BF16", "int8": "INT8", "int4": "INT4", "bit1": "1-bit"}
     report_lines = [
         f"# Quantization Feasibility Study — {MODEL_NAME}",
         f"Generated: {time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime())}",
         "",
         "## Perplexity Results",
-        "| Precision | Perplexity | vs FP16 |",
+        "| Precision | Perplexity | vs BF16 |",
         "|-----------|-----------|---------|",
     ]
-    fp16_ppl = benchmark["fp16"]["perplexity"]
-    for lvl in ["fp16","int8","int4","bit1"]:
+    bf16_ppl = benchmark["bf16"]["perplexity"]
+    for lvl in ["bf16","int8","int4","bit1"]:
         p = benchmark[lvl]["perplexity"]
-        delta = f"{p/fp16_ppl:.1f}×" if lvl != "fp16" else "baseline"
-        report_lines.append(f"| {lvl.upper()} | {p:.2f} | {delta} |")
+        delta = f"{p/bf16_ppl:.1f}×" if lvl != "bf16" else "baseline"
+        report_lines.append(f"| {label[lvl]} | {p:.2f} | {delta} |")
 
     report_lines += [
         "",

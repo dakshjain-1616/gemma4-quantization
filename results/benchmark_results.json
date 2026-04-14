@@ -1,6 +1,6 @@
 {
-  "fp16": {
-    "quantization_level": "fp16",
+  "bf16": {
+    "quantization_level": "bf16",
     "perplexity": 128453.64588723835,
     "memory_gb": 10.246356032,
     "inference_time_ms": 50.14329859986901,
