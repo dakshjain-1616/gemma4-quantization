@@ -1,5 +1,8 @@
 # Quantization Feasibility Study: BF16 → INT8 → INT4 → 1-bit
 
+> This study — including code execution, bug fixing, analysis, and report generation — was conducted autonomously by **[NEO — Your Autonomous AI Agent](https://heyneo.com)**.  
+> Try NEO: [heyneo.com](https://heyneo.com) · [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=NeoResearchInc.heyneo)
+
 **Model:** `google/gemma-4-E2B-it` — 5.12B parameters · vocab 262,144 tokens  
 **Hardware:** NVIDIA RTX 6000 Ada Generation (49 GB VRAM)  
 **Method:** Simulated post-training quantization (PTQ) — weight-only, no retraining  
