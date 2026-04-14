@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400">
+  <rect width="760" height="400" rx="12" fill="#0d1117"/>
+  <text x="380" y="22" text-anchor="middle" font-family="monospace" font-size="13" font-weight="bold" fill="#f0f6fc">Theoretical Memory &amp; Measured Latency — google/gemma-4-E2B-it (5.12B params)</text>
+  <text x="90" y="44" font-family="monospace" font-size="9" font-weight="bold" fill="#8b949e">THEORETICAL MEMORY  (hardware-native integer kernels · n_params × bits / 8)</text>
+  <line x1="90" y1="68" x2="90" y2="218" stroke="#30363d" stroke-width="1.5"/>
+  <line x1="90" y1="218" x2="740" y2="218" stroke="#30363d" stroke-width="1.5"/>
+  <line x1="90" y1="218.0" x2="740" y2="218.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="90" y1="168.0" x2="740" y2="168.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="85" y="171.0" text-anchor="end" font-family="monospace" font-size="9" fill="#8b949e">4 GB</text>
+  <line x1="90" y1="118.0" x2="740" y2="118.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="85" y="121.0" text-anchor="end" font-family="monospace" font-size="9" fill="#8b949e">8 GB</text>
+  <line x1="90" y1="68.0" x2="740" y2="68.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="85" y="71.0" text-anchor="end" font-family="monospace" font-size="9" fill="#8b949e">12 GB</text>
+  <defs><linearGradient id="mg0" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#34d399"/><stop offset="100%" stop-color="#059669"/></linearGradient></defs>
+  <rect x="148.0" y="89.9" width="90" height="128.1" rx="4" fill="url(#mg0)"/>
+  <text x="193.0" y="82.9" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#34d399">10.25 GB</text>
+  <text x="193.0" y="234.0" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#34d399">BF16</text>
+  <defs><linearGradient id="mg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient></defs>
+  <rect x="296.0" y="154.0" width="90" height="64.0" rx="4" fill="url(#mg1)"/>
+  <text x="341.0" y="147.0" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#a78bfa">5.12 GB</text>
+  <text x="341.0" y="234.0" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#a78bfa">INT8</text>
+  <defs><linearGradient id="mg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f85149"/><stop offset="100%" stop-color="#dc2626"/></linearGradient></defs>
+  <rect x="444.0" y="186.0" width="90" height="32.0" rx="4" fill="url(#mg2)"/>
+  <text x="489.0" y="179.0" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#f85149">2.56 GB</text>
+  <text x="489.0" y="234.0" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#f85149">INT4</text>
+  <defs><linearGradient id="mg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffa198"/><stop offset="100%" stop-color="#991b1b"/></linearGradient></defs>
+  <rect x="592.0" y="205.3" width="90" height="12.7" rx="4" fill="url(#mg3)"/>
+  <text x="637.0" y="198.3" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#ffa198">1.01 GB</text>
+  <text x="637.0" y="234.0" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#ffa198">1-bit</text>
+  <text x="341.0" y="248.0" text-anchor="middle" font-family="monospace" font-size="9" fill="#a78bfa">-50%</text>
+  <text x="489.0" y="248.0" text-anchor="middle" font-family="monospace" font-size="9" fill="#f85149">-75%</text>
+  <text x="637.0" y="248.0" text-anchor="middle" font-family="monospace" font-size="9" fill="#ffa198">-90%</text>
+  <text x="90" y="264.0" font-family="monospace" font-size="8" fill="#484f58">Theoretical: BF16=10.25 GB, INT8=5.12 GB, INT4=2.56 GB, 1-bit=1.01 GB. Simulated quant holds weights in BF16 — no runtime savings.</text>
+  <line x1="90" y1="276" x2="740" y2="276" stroke="#30363d" stroke-width="1" stroke-dasharray="2,4" opacity="0.5"/>
+  <text x="90" y="294" font-family="monospace" font-size="9" font-weight="bold" fill="#8b949e">MEASURED LATENCY  (simulated quant · BF16 at runtime · RTX 6000 Ada · ms/sample · 5 runs + 2 warmup)</text>
+  <rect x="96.0" y="306" width="150.5" height="46" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="171.2" y="337.9" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#34d399">50.1</text>
+  <text x="171.2" y="344.0" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">BF16 ms</text>
+  <rect x="258.5" y="306" width="150.5" height="46" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="333.8" y="337.9" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#a78bfa">49.9</text>
+  <text x="333.8" y="344.0" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">INT8 ms</text>
+  <rect x="421.0" y="306" width="150.5" height="46" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="496.2" y="337.9" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#f85149">49.0</text>
+  <text x="496.2" y="344.0" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">INT4 ms</text>
+  <rect x="583.5" y="306" width="150.5" height="46" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="658.8" y="337.9" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#ffa198">50.6</text>
+  <text x="658.8" y="344.0" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">1-bit ms</text>
+  <text x="380" y="388" text-anchor="middle" font-family="monospace" font-size="8" fill="#484f58">Latency is identical across all levels — simulated quant holds weights in BF16, no integer arithmetic. Real INT8 kernels (bitsandbytes/GPTQ) yield ~1.5–2× throughput gain.</text>
+</svg>

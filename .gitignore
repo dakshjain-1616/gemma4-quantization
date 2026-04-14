@@ -1,0 +1,20 @@
+# Claude Code session data
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# HuggingFace model cache (can be huge)
+hf_exports/
+*.safetensors
+*.bin
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

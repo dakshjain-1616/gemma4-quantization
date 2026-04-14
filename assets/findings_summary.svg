@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300">
+  <rect width="760" height="300" rx="12" fill="#0d1117"/>
+  <text x="380" y="22" text-anchor="middle" font-family="monospace" font-size="11" fill="#8b949e" letter-spacing="0.5">FEASIBILITY STUDY — google/gemma-4-E2B-it · SIMULATED POST-TRAINING QUANTIZATION · BF16 → 1-BIT</text>
+  <rect x="8" y="34" width="177" height="118" rx="8" fill="#161b22" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="96" y="50" text-anchor="middle" font-family="monospace" font-size="8" fill="#484f58">INT8 vs BF16 baseline</text>
+  <text x="96" y="96" text-anchor="middle" font-family="monospace" font-size="26" font-weight="bold" fill="#a78bfa">28.1%</text>
+  <text x="96" y="114" text-anchor="middle" font-family="monospace" font-size="10" fill="#f0f6fc">raw ppl reduction</text>
+  <text x="96" y="130" text-anchor="middle" font-family="monospace" font-size="8" fill="#484f58">noise territory (both near-random)</text>
+  <rect x="193" y="34" width="177" height="118" rx="8" fill="#161b22" stroke="#f85149" stroke-width="1.5"/>
+  <text x="281" y="50" text-anchor="middle" font-family="monospace" font-size="8" fill="#484f58">1-bit vs BF16 baseline</text>
+  <text x="281" y="96" text-anchor="middle" font-family="monospace" font-size="26" font-weight="bold" fill="#f85149">399K×</text>
+  <text x="281" y="114" text-anchor="middle" font-family="monospace" font-size="10" fill="#f0f6fc">ppl explosion</text>
+  <text x="281" y="130" text-anchor="middle" font-family="monospace" font-size="8" fill="#da3633">✗ random output</text>
+  <rect x="378" y="34" width="177" height="118" rx="8" fill="#161b22" stroke="#f0883e" stroke-width="1.5"/>
+  <text x="466" y="50" text-anchor="middle" font-family="monospace" font-size="8" fill="#484f58">148 / 566 linear</text>
+  <text x="466" y="96" text-anchor="middle" font-family="monospace" font-size="26" font-weight="bold" fill="#f0883e">26.1%</text>
+  <text x="466" y="114" text-anchor="middle" font-family="monospace" font-size="10" fill="#f0f6fc">layers tolerant 1-bit</text>
+  <text x="466" y="130" text-anchor="middle" font-family="monospace" font-size="8" fill="#f0883e">hybrid path viable</text>
+  <rect x="563" y="34" width="189" height="118" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+  <text x="657" y="50" text-anchor="middle" font-family="monospace" font-size="8" fill="#484f58">RTX 6000 Ada measured</text>
+  <text x="657" y="96" text-anchor="middle" font-family="monospace" font-size="26" font-weight="bold" fill="#58a6ff">~50ms</text>
+  <text x="657" y="114" text-anchor="middle" font-family="monospace" font-size="10" fill="#f0f6fc">all precisions equal</text>
+  <text x="657" y="130" text-anchor="middle" font-family="monospace" font-size="8" fill="#8b949e">sim quant · no HW gain</text>
+  <rect x="8" y="162" width="744" height="86" rx="8" fill="#0a1f0a" stroke="#238636" stroke-width="1.5"/>
+  <text x="380" y="178" text-anchor="middle" font-family="monospace" font-size="10" font-weight="bold" fill="#3fb950">STUDY CONCLUSIONS</text>
+  <text x="380" y="195" text-anchor="middle" font-family="monospace" font-size="10" fill="#e6edf3">✓  Use INT8 via bitsandbytes / GPTQ for deployment: 2× memory reduction, &lt;1% quality loss on real tasks.</text>
+  <text x="380" y="212" text-anchor="middle" font-family="monospace" font-size="10" fill="#e6edf3">△  Hybrid path: 148 tolerant layers → 1-bit, 418 sensitive → INT8. Viable, but needs custom BitNet kernels.</text>
+  <text x="380" y="229" text-anchor="middle" font-family="monospace" font-size="10" fill="#ffa198">✗  INT4 / 1-bit post-training quantization: catastrophic failure. BitNet training from scratch required.</text>
+  <text x="380" y="243" text-anchor="middle" font-family="monospace" font-size="8" fill="#484f58">All results from simulated PTQ — real deployment requires bitsandbytes, GPTQ, or AWQ.</text>
+</svg>
